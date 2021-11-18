@@ -1,6 +1,6 @@
-@import url("../../../css/reset.css");
-@import url("../../../css/border.css");
-@import url("../../../css/global.css");
+@import url("../../css/reset.css");
+@import url("../../css/border.css");
+@import url("../../css/global.css");
 
 .colorFG { color: var(--weui-FG-1); }
 #container {

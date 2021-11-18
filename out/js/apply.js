@@ -9,6 +9,7 @@ window.onload = function() {
 	Global_FN.render();
 }
 //全局变量
+
 var Global_VAR = {
 	iWxSdkFlog: 0,
 	formName: "filter_form",
@@ -25,10 +26,11 @@ var Global_VAR = {
 		{ label: "人员类型", value: "研究生" }
 	],
 	// 步骤栏
+	
 	stepBox: [     
-		{ "name": "提交", "url": "img/true.png" },
-		{ "name": "院级审批", "url": "img/true.png" },
-		{ "name": "校级审批", "url": "img/true.png" }
+		{ "name": "提交", "url": "out/img/true.png"},
+		{ "name": "院级审批", "url": "out/img/true.png"},
+		{ "name": "校级审批", "url": "out/img/true.png"}
 	],
 	hoursList: [],           // 小时组
 	minutesList: [],         // 分钟组
