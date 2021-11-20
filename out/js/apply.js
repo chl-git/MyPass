@@ -19,8 +19,8 @@ var Global_VAR = {
 	getSite: SysUtils.getHttpRoot() + "/base/public/web/getSite", // 申请接口
 	beforeImg: null,
 	infoData: [ // 个人信息数据
-		{ label: "姓名", value: "" }, 
-		{ label: "学号", value: "" }, 
+		{ label: "姓名", value: "姓名" }, 
+		{ label: "学号", value: "学号" }, 
 		{ label: "学院", value: "经济与金融学院" }, 
 		{ label: "年级", value: "2021" }, 
 		{ label: "人员类型", value: "研究生" }
@@ -224,7 +224,9 @@ var Global_FN = {
 			$.each(Global_VAR.infoData, (index, item) => {
 				// console.log(item);
 				// sList += '<div class="info_list"><span>'+ item.label +'</span><span>'+ item.value +'</span></div>';
+				
 				sList += '<div class="info_list"><span>'+ item.label +'</span><p contenteditable="true">'+ item.value +'</p></div>';
+				// sList += '<div class="info_list"><span>'+ item.label +'</span><input type="text" name="sOutAddress" placeholder="-" autocomplete="off" /></div>';
 
 			})
 			$(".info_box").html(sList);
