@@ -19,8 +19,8 @@ var Global_VAR = {
 	getSite: SysUtils.getHttpRoot() + "/base/public/web/getSite", // 申请接口
 	beforeImg: null,
 	infoData: [ // 个人信息数据
-		{ label: "姓名", value: "姓名" }, 
-		{ label: "学号", value: "学号" }, 
+		{ label: "姓名", value: "" }, 
+		{ label: "学号", value: "" }, 
 		{ label: "学院", value: "经济与金融学院" }, 
 		{ label: "年级", value: "2021" }, 
 		{ label: "人员类型", value: "研究生" }
